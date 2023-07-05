@@ -1,0 +1,42 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:#f2f5fa;  */
+    padding: 8px 350px 8px 350px; 
+}
+.header-containt{
+    font-size: 20px;
+    display: flex;
+    list-style: none;  
+}
+li{
+    padding: 10px;
+}
+.banner-section{
+    background: url('/images/background.png');
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 350px 8px 350px;
+}
+.banner-header{font-size: 60px;
+
+}
+.banner-details{
+    font-size: 20px;
+}
+.banner{
+    padding: 250px 0px 250px 0px;
+}
+.btn{
+    background-color: rgb(255, 69, 0);
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 25px 15px 25px 15px;
+    border: 0;
+}
