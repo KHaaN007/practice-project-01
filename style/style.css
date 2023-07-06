@@ -40,3 +40,57 @@ li{
     border-radius: 25px 15px 25px 15px;
     border: 0;
 }
+.middle-title{
+    padding-top:10px;
+    text-align:center;
+    font-size: 50px;
+}
+.middle-section{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-details{
+    font-size: larger;
+}
+.middle-section{
+    padding: 8px 350px 8px 350px;
+    background: whitesmoke;
+}
+.middle{
+    background: whitesmoke;
+}
+.service-section{
+    padding: 8px 350px 8px 350px;
+    background-image: url('/images/background.png');
+}
+.service-details{
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+}
+.service{
+    width: 210px;
+    height: 310px;
+    padding: 
+    20px 20px 0px 20px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgba(21, 21, 21, 0.196);
+    box-shadow: 20px 20px 150px;
+    
+
+}
+.service-heading{
+    font-size: 20px;
+}
+.service-description{
+    font-size: 15px;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 200px 350px 100px 350px;
+}
